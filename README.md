@@ -2,6 +2,17 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+import 첫 줄 오류 해결
+.eslintrc.json -> "next/babel"추가
+
+{
+  "extends": ["next/babel","next/core-web-vitals"]
+}
+
+
+
+
+
 First, run the development server:
 
 ```bash
