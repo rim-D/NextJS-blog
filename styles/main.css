@@ -1,0 +1,16 @@
+#wrap {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header-logo {
+    display: flex;
+    padding-top: 20px;
+}
+.header-logo .img-holder {
+    flex: 100px 0 0;
+}
+.header-logo .img-holder img {
+    display: block;
+    width: 80px;
+}
